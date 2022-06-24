@@ -13,5 +13,27 @@ body {
     background-color: red;
     margin-left: auto;
     margin-right: auto;
+}
 
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0 15px;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
 }

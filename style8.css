@@ -133,3 +133,30 @@ body {
     left: -10px;
     top: -10px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+    position: absolute;
+    display: none;
+    width: 285px;
+}
+
+.drop-content a {
+    text-align: left;
+    color: white;
+    background-color: #2b71b7;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: white;
+    color: #2c71b8;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}

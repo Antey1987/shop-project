@@ -136,7 +136,7 @@ body {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+
 }
 
 .drop-content {
@@ -157,6 +157,6 @@ body {
     color: #2c71b8;
 }
 
-.dropdown:hover .drop-content {
+.dropdown :hover .drop-content {
     display: block;
-}
+} 

@@ -38,6 +38,10 @@ body {
     width: 50%;
 }
 
+.col-md-9 {
+    width: 75%;
+}
+
 .header {
     padding: 25px 0;
     background-color: rgba(255, 255, 255, 0.75);
@@ -71,4 +75,9 @@ body {
 
 .logo {
     margin-top: 7px;
+}
+
+.header-form-search {
+    height: 40px;
+    border: 1px solid #2c71b8;
 }

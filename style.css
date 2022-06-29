@@ -93,5 +93,22 @@ body {
     position: absolute;
     right: 4px;
     top: 4px;
-
+    border: none;
 }
+
+.header-form-search input {
+    background-color: transparent;
+    border: none;
+    line-height: 40px;
+    width: 150px;
+    height: 30px;
+    margin: 4px;
+}
+
+.col-md-9 {
+    margin-top: 5px;
+}
+::placeholder {
+    color: #2b71b7;
+}
+

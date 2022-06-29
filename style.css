@@ -80,4 +80,18 @@ body {
 .header-form-search {
     height: 40px;
     border: 1px solid #2c71b8;
+    position: relative;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background-image: url(images/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2b71b7;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+
 }

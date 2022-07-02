@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
 }
 
+/* ************************* Header  ************************ */
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -20,7 +21,8 @@ body {
 }
 
 .row::after,
-.menu::after {
+.menu::after,
+.breadcrumbs::after {
   content: "";
   display: block;
   clear: both;
@@ -34,8 +36,16 @@ body {
 .col-md-3 {
   width: 25%;
 }
+
+.col-md-4 {
+    width: 33.333334%;
+}
+
 .col-md-6 {
   width: 50%;
+}
+.col-md-8 {
+    width: 66.666667%;
 }
 
 .col-md-9 {
@@ -80,6 +90,7 @@ body {
   height: 40px;
   border: 1px solid #2c71b8;
   position: relative;
+  margin-top: 5px;
 }
 
 .btn {
@@ -104,9 +115,6 @@ body {
   margin: 4px;
 }
 
-.col-md-9 {
-  margin-top: 5px;
-}
 ::placeholder {
   color: #2b71b7;
 }
@@ -169,7 +177,7 @@ body {
     color: white;
 }
 
-.arrow {
+.arrow1 {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -178,6 +186,77 @@ body {
     background-image: url(images/blue-arrow.png);
 }
 
-.dropdown li:hover .arrow {
+.dropdown li:hover .arrow1 {
     background-image: url(images/white-arrow.png);
+}
+
+
+
+
+/* ************************ Main *************************** */
+
+.slider {
+    height: 400px;
+    text-align: center;
+}
+
+.breadcrumbs {
+    height: 50px;
+    padding-left:  8px;
+    line-height: 50px;
+}
+
+.breadcrumbs li {
+    float: left;
+    padding-left: 7px;
+
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.sort  {
+    line-height: 40px;
+    height: 40px;
+    width: 262px;
+    border:1px solid white;
+    margin-top: 5px;
+    padding-left: 20px;
+    background-color: #2b71b7;
+    position: relative;
+}
+
+.sort a {
+    color: white;
+    text-decoration: none;
+
+}
+.arrow2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-image: url(images/white-arrow.png);
+}
+
+.drop-content2 {
+    border: 1px solid white;
+    top: 38px;
+    left: 0px;
+    width: 262px;
 }

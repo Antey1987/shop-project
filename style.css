@@ -51,6 +51,9 @@ body {
 .col-md-9 {
   width: 75%;
 }
+.col-md-12 {
+    width: 100%;
+}
 
 .header {
   padding: 25px 0;

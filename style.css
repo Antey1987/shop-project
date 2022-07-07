@@ -415,6 +415,17 @@ input[type="checkbox"]:checked + label::before {
 .btn-filter {
     margin: 15px 0 0 0 ;
 }
+
+.load-more {
+    height: 180px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    line-height: 180px;
+
+}
+
+
 /* **************footer****************** */
 
 .footer {

@@ -194,14 +194,14 @@ body {
 }
 
 /* ************************ Main *************************** */
-
+/* 
 .slider {
   height: 400px;
   text-align: center;
   font-size: 100px;
   color: white;
   line-height: 400px;
-}
+} */
 
 .breadcrumbs {
   height: 50px;
@@ -307,6 +307,11 @@ body {
   position: absolute;
   top: 50px;
   right: 10px;
+}
+
+.liked {
+    background-color: #2b71b7;
+    background-image: url(images/white-like.png);
 }
 
 .like:hover {
@@ -435,4 +440,55 @@ input[type="checkbox"]:checked + label::before {
     font-size: 21px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0.75) ;
+}
+
+
+.modal {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.modal-block {
+    color: #2b71b7;
+    width: 300px;
+    margin: 100px auto;
+    height: 200px;
+    border:1px solid grey;
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px;  
+}
+.btn-close {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.form-title,.form-field {
+    margin: 15px 0;
+}
+.form-field input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+.form-button button {
+    background-color: #2b71b7;
+    border: 1px solid gray;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
